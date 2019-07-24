@@ -1,7 +1,7 @@
 package com.baojie.interceptor.conf;
 
 import com.alibaba.druid.pool.DruidDataSource;
-import com.example.springcloud.entity.mybatis.DataSourceEntity;
+import com.baojie.common.entity.DataSourceEntity;
 import com.sun.istack.internal.Nullable;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.jdbc.datasource.lookup.AbstractRoutingDataSource;

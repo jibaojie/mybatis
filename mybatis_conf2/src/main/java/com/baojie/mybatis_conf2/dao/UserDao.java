@@ -1,7 +1,7 @@
 package com.baojie.mybatis_conf2.dao;
 
-import com.baojie.mybatis.common.entity.User;
-import com.baojie.mybatis.common.mapper.MyMapper;
+import com.baojie.common.entity.User;
+import com.baojie.common.mapper.MyMapper;
 
 /**
  * @author jbj

@@ -54,7 +54,7 @@ spring:
         login-password: admin
 
 mybatis:
-  type-aliases-package: com.example.springcloud.common.entity.security
+  type-aliases-package: com.baojie.common.entity
   mapper-locations: classpath:mapper/*.xml
 
 mapper:
@@ -63,7 +63,7 @@ mapper:
 #  不是dao文件的路径,是MyMapper的路径
   mappers:
     - tk.mybatis.mapper.common.Mapper
-    - com.example.springclod.common.mapper.MyMapper
+    - com.baojie.common.mapper.MyMapper
 
 pagehelper:
   helperDialect: mysql
@@ -73,5 +73,4 @@ pagehelper:
 
 logging:
   level:
-    com.example.springcloud: debug
-    org.springframework.security: debug
+    com.baojie: debug

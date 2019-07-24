@@ -67,7 +67,7 @@ spring:
 
 
 mybatis:
-  type-aliases-package: com.example.springcloud.common.entity.mybatis
+  type-aliases-package: com.baojie.common.entity
   mapper-locations: classpath:mapper/*.xml
   configuration:
     cache-enabled: true #默认二级缓存就是开启的
@@ -78,7 +78,7 @@ mapper:
 #  不是dao文件的路径,是MyMapper的路径
   mappers:
     - tk.mybatis.mapper.common.Mapper
-    - com.example.springclod.common.mapper.MyMapper
+    - com.baojie.common.mapper.MyMapper
 
 pagehelper:
   helperDialect: mysql
@@ -88,7 +88,7 @@ pagehelper:
 
 logging:
   level:
-    com.example.springcloud: debug
+    com.baojie: debug
     org.springframework.security: debug
     tk.mybatis: debug
 

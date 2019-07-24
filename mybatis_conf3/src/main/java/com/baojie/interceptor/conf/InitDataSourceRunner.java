@@ -1,7 +1,7 @@
 package com.baojie.interceptor.conf;
 
+import com.baojie.common.entity.DataSourceEntity;
 import com.baojie.interceptor.service.DataSourceEntityService;
-import com.example.springcloud.entity.mybatis.DataSourceEntity;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;

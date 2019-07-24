@@ -2,7 +2,7 @@ package com.baojie.interceptor.aop;
 
 import com.baojie.interceptor.conf.DBContextHolder;
 import com.baojie.interceptor.constant.DataSourceConstant;
-import com.baojie.mybatis.common.entity.BaseEntity;
+import com.baojie.common.entity.BaseEntity;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;

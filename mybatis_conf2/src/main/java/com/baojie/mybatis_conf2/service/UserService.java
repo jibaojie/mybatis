@@ -1,6 +1,6 @@
 package com.baojie.mybatis_conf2.service;
 
-import com.baojie.mybatis.common.entity.User;
+import com.baojie.common.entity.User;
 
 import java.util.List;
 

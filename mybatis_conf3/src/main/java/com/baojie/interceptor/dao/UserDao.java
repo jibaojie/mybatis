@@ -1,7 +1,7 @@
 package com.baojie.interceptor.dao;
 
-import com.example.springclod.common.mapper.MyMapper;
-import com.example.springcloud.entity.mybatis.User;
+import com.baojie.common.entity.User;
+import com.baojie.common.mapper.MyMapper;
 
 /**
  * @author jbj

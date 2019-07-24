@@ -1,6 +1,6 @@
 package com.baojie.interceptor.service;
 
-import com.example.springcloud.entity.mybatis.User;
+import com.baojie.common.entity.User;
 
 import java.util.List;
 

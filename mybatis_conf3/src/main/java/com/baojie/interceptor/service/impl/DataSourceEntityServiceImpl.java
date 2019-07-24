@@ -1,7 +1,7 @@
 package com.baojie.interceptor.service.impl;
 
-import com.example.springclod.common.base.BaseServiceImpl;
-import com.example.springcloud.entity.mybatis.DataSourceEntity;
+import com.baojie.common.base.BaseServiceImpl;
+import com.baojie.common.entity.DataSourceEntity;
 import com.baojie.interceptor.dao.DataSourceEntityDao;
 import com.baojie.interceptor.service.DataSourceEntityService;
 import org.springframework.stereotype.Service;

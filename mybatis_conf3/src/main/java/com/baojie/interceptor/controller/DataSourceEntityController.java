@@ -1,8 +1,8 @@
 package com.baojie.interceptor.controller;
 
+import com.baojie.common.entity.DataSourceEntity;
 import com.baojie.interceptor.conf.DynamicDatasource;
 import com.baojie.interceptor.service.DataSourceEntityService;
-import com.example.springcloud.entity.mybatis.DataSourceEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

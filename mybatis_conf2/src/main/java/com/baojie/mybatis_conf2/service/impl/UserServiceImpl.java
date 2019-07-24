@@ -1,6 +1,6 @@
 package com.baojie.mybatis_conf2.service.impl;
 
-import com.baojie.mybatis.common.entity.User;
+import com.baojie.common.entity.User;
 import com.baojie.mybatis_conf2.anno.Master;
 import com.baojie.mybatis_conf2.dao.UserDao;
 import com.baojie.mybatis_conf2.service.UserService;

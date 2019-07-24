@@ -32,7 +32,7 @@ public class MyBatisConfig {
     public SqlSessionFactory sqlSessionFactory() throws Exception {
         SqlSessionFactoryBean sqlSessionFactoryBean = new SqlSessionFactoryBean();
         sqlSessionFactoryBean.setDataSource(myRoutingDataSource);
-        sqlSessionFactoryBean.setTypeAliasesPackage("com.example.springcloud.entity.mybatis");
+        sqlSessionFactoryBean.setTypeAliasesPackage("com.baojie.common.entity");
         //添加XML目录
         sqlSessionFactoryBean.setMapperLocations(new PathMatchingResourcePatternResolver().getResources("classpath:mapper/*.xml"));
 

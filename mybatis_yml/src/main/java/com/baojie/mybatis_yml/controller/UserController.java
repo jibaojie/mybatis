@@ -1,6 +1,6 @@
 package com.baojie.mybatis_yml.controller;
 
-import com.baojie.mybatis.common.entity.User;
+import com.baojie.common.entity.User;
 import com.baojie.mybatis_yml.dao.UserDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

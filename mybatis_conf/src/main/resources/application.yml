@@ -37,5 +37,5 @@ spring:
 
 logging:
   level:
-    com.example.springcloud: debug
+    com.baojie: debug
     org.springframework.security: debug

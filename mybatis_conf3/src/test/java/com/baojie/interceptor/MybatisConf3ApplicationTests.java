@@ -1,11 +1,11 @@
 package com.baojie.interceptor;
 
+import com.baojie.common.entity.DataSourceEntity;
+import com.baojie.common.entity.User;
 import com.baojie.interceptor.conf.DBContextHolder;
 import com.baojie.interceptor.conf.DynamicDatasource;
 import com.baojie.interceptor.service.DataSourceEntityService;
 import com.baojie.interceptor.service.UserService;
-import com.example.springcloud.entity.mybatis.DataSourceEntity;
-import com.example.springcloud.entity.mybatis.User;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

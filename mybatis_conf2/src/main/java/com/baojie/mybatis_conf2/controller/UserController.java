@@ -1,6 +1,6 @@
 package com.baojie.mybatis_conf2.controller;
 
-import com.baojie.mybatis.common.entity.User;
+import com.baojie.common.entity.User;
 import com.baojie.mybatis_conf2.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

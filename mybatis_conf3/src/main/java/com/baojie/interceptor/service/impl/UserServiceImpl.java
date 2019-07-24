@@ -1,6 +1,6 @@
 package com.baojie.interceptor.service.impl;
 
-import com.example.springcloud.entity.mybatis.User;
+import com.baojie.common.entity.User;
 import com.baojie.interceptor.anno.Master;
 import com.baojie.interceptor.dao.UserDao;
 import com.baojie.interceptor.service.UserService;

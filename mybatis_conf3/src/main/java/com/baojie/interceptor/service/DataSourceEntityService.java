@@ -1,7 +1,7 @@
 package com.baojie.interceptor.service;
 
-import com.example.springclod.common.base.BaseServie;
-import com.example.springcloud.entity.mybatis.DataSourceEntity;
+import com.baojie.common.base.BaseServie;
+import com.baojie.common.entity.DataSourceEntity;
 
 /**
  * @author jbj

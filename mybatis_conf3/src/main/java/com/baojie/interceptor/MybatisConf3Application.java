@@ -10,7 +10,7 @@ import tk.mybatis.spring.annotation.MapperScan;
  * PageHelperAutoConfiguration在多数据源时发生错误
  */
 @SpringBootApplication(exclude = PageHelperAutoConfiguration.class)
-@MapperScan("com.example.springcloud.provider.mybatis_conf3.dao")
+@MapperScan("com.baojie.mybatis_conf3.dao")
 public class MybatisConf3Application {
 
     public static void main(String[] args) {
