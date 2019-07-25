@@ -16,6 +16,5 @@ import com.baojie.common.mapper.MyMapper;
 //@CacheNamespace(flushInterval = 2, readWrite = false, size =  10)
 //@CacheNamespaceRef(UserDao.class)
 public interface UserDao extends MyMapper<User> {
-
     User getUser2(Integer id);
 }

@@ -26,6 +26,7 @@ public class MybatisConf2ApplicationTests {
         User user = userService.getUser(1);
         user.setId(2);
         userService.insert(user);
+        //加了Master注解，会切换到主数据源
         System.out.println(userService.selectUser().toString());
     }
 

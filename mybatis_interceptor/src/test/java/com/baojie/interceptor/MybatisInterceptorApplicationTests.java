@@ -16,6 +16,7 @@ public class MybatisInterceptorApplicationTests {
 
     @Test
     public void testUpdate() {
+
         userService.selectAll();
 
         userService.selectAll();
