@@ -1,4 +1,4 @@
-package com.baojie.interceptor.controller;
+package com.baojie.dymic.controller;
 
 import com.baojie.common.base.BaseServie;
 import com.baojie.common.entity.BaseEntity;

@@ -1,8 +1,8 @@
-package com.baojie.interceptor.controller;
+package com.baojie.dymic.controller;
 
 import com.baojie.common.entity.DataSourceEntity;
-import com.baojie.interceptor.conf.DynamicDatasource;
-import com.baojie.interceptor.service.DataSourceEntityService;
+import com.baojie.dymic.conf.DynamicDatasource;
+import com.baojie.dymic.service.DataSourceEntityService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

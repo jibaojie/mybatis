@@ -1,4 +1,4 @@
-package com.baojie.interceptor.service;
+package com.baojie.dymic.service;
 
 import com.baojie.common.base.BaseServie;
 import com.baojie.common.entity.DataSourceEntity;

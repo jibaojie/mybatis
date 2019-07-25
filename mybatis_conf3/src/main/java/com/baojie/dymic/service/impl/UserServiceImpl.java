@@ -1,9 +1,9 @@
-package com.baojie.interceptor.service.impl;
+package com.baojie.dymic.service.impl;
 
 import com.baojie.common.entity.User;
-import com.baojie.interceptor.anno.Master;
-import com.baojie.interceptor.dao.UserDao;
-import com.baojie.interceptor.service.UserService;
+import com.baojie.dymic.anno.Master;
+import com.baojie.dymic.dao.UserDao;
+import com.baojie.dymic.service.UserService;
 import com.github.pagehelper.PageHelper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

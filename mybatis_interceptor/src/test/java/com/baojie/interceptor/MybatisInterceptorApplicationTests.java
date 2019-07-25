@@ -1,6 +1,8 @@
 package com.baojie.interceptor;
 
+import com.baojie.interceptor.dialect.PageRowBounds;
 import com.baojie.interceptor.service.UserService;
+import org.apache.ibatis.session.RowBounds;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,11 +17,18 @@ public class MybatisInterceptorApplicationTests {
     private UserService userService;
 
     @Test
-    public void testUpdate() {
-
+    public void test() {
         userService.selectAll();
+    }
 
-        userService.selectAll();
+    @Test
+    public void testRowBounds() {
+        userService.selectAll2(new RowBounds(1, 2));
+    }
+
+    @Test
+    public void testPageRowBounds() {
+        userService.selectAll2(new PageRowBounds(1, 2));
     }
 
 }

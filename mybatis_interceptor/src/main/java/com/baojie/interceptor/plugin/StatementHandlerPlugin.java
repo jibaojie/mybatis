@@ -1,10 +1,7 @@
 package com.baojie.interceptor.plugin;
 
-import org.apache.ibatis.executor.Executor;
 import org.apache.ibatis.executor.statement.StatementHandler;
-import org.apache.ibatis.mapping.MappedStatement;
 import org.apache.ibatis.plugin.*;
-import org.apache.ibatis.session.RowBounds;
 import sun.plugin2.main.server.ResultHandler;
 
 import java.lang.reflect.Method;

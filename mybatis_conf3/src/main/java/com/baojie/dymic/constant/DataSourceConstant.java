@@ -1,4 +1,4 @@
-package com.baojie.interceptor.constant;
+package com.baojie.dymic.constant;
 
 /**
  * @author jbj

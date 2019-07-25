@@ -1,4 +1,4 @@
-package com.baojie.interceptor.conf;
+package com.baojie.dymic.conf;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import com.baojie.common.entity.DataSourceEntity;

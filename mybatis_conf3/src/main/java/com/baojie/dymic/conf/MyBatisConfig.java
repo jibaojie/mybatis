@@ -1,4 +1,4 @@
-package com.baojie.interceptor.conf;
+package com.baojie.dymic.conf;
 
 import com.github.pagehelper.PageInterceptor;
 import lombok.extern.slf4j.Slf4j;

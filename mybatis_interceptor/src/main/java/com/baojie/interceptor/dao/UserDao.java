@@ -2,6 +2,9 @@ package com.baojie.interceptor.dao;
 
 import com.baojie.common.entity.User;
 import com.baojie.common.mapper.MyMapper;
+import org.apache.ibatis.session.RowBounds;
+
+import java.util.List;
 
 /**
  * @author jbj
@@ -18,4 +21,6 @@ import com.baojie.common.mapper.MyMapper;
 public interface UserDao extends MyMapper<User> {
 
     User getUser2(Integer id);
+
+    List<User> selectAll2(RowBounds rowBounds);
 }

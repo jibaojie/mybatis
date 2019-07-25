@@ -1,7 +1,7 @@
-package com.baojie.interceptor.aop;
+package com.baojie.dymic.aop;
 
-import com.baojie.interceptor.conf.DBContextHolder;
-import com.baojie.interceptor.constant.DataSourceConstant;
+import com.baojie.dymic.conf.DBContextHolder;
+import com.baojie.dymic.constant.DataSourceConstant;
 import com.baojie.common.entity.BaseEntity;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.Aspect;
@@ -22,7 +22,7 @@ import javax.servlet.http.HttpServletRequest;
 @Component
 public class DataSourceAop {
 
-    @Pointcut("execution(* com.baojie.interceptor.controller.*Controller.*(..))")
+    @Pointcut("execution(* com.baojie.dymic.controller.*Controller.*(..))")
     public void pointcut() {}
 
     @Before("pointcut()")

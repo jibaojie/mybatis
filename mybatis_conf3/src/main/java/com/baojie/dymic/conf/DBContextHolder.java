@@ -1,6 +1,6 @@
-package com.baojie.interceptor.conf;
+package com.baojie.dymic.conf;
 
-import com.baojie.interceptor.constant.DataSourceConstant;
+import com.baojie.dymic.constant.DataSourceConstant;
 import lombok.extern.slf4j.Slf4j;
 
 /**

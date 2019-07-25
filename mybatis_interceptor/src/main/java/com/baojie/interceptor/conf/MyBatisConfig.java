@@ -1,7 +1,7 @@
 package com.baojie.interceptor.conf;
 
 import com.alibaba.druid.pool.DruidDataSource;
-import com.baojie.interceptor.plugin.PageIntercepter;
+import com.baojie.interceptor.dialect.PageIntercepter;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.ibatis.plugin.Interceptor;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -13,6 +13,8 @@ import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
+
+import java.util.Properties;
 
 /**
  * @author jbj
@@ -36,7 +38,9 @@ public class MyBatisConfig {
 
         Interceptor interceptor = new PageIntercepter();
         //此处可设置额外参数
-//        interceptor.setProperties();
+        Properties properties = new Properties();
+        properties.setProperty("dialect", "com.baojie.interceptor.dialect.MySqlDialect");
+        interceptor.setProperties(properties);
         sqlSessionFactoryBean.setPlugins(new Interceptor[]{interceptor});
         return sqlSessionFactoryBean.getObject();
     }

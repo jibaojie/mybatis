@@ -1,4 +1,4 @@
-package com.baojie.interceptor.dao;
+package com.baojie.dymic.dao;
 
 import com.baojie.common.entity.User;
 import com.baojie.common.mapper.MyMapper;

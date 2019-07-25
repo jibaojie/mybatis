@@ -1,4 +1,4 @@
-package com.baojie.interceptor;
+package com.baojie.dymic;
 
 import com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration;
 import org.springframework.boot.SpringApplication;
